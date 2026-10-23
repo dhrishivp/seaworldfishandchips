@@ -13,8 +13,8 @@ Plain HTML/CSS/JS, with no build step and no dependencies.
 - **Drag & drop:** drop this folder onto https://app.netlify.com/drop
 - **From Git:** connect the repo in Netlify; `netlify.toml` handles the settings.
 
-## Placeholders to replace
+## Still to confirm
 
-- Menu items and prices (`#menu` in `index.html`), then remove the "Menu & prices to be confirmed" note
-- Opening hours (`#hours`), then remove the "Hours to be confirmed" note
-- `images/hero-placeholder.svg` and `images/shop-placeholder.svg`: swap for real photos and update the `src`, `width` and `height` in `index.html`
+- Fish and chip prices come from the shop's Just Eat listing. All other menu items and prices are placeholders. Once the menu is confirmed, remove the "Menu & prices to be confirmed" note.
+- Hours are Mon–Sat 11:00am – 9:00pm, Sunday closed. Just Eat lists an 11:30am opening.
+- "Cash only" is based on the sign by the counter.
