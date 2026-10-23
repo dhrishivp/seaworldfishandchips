@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-labelledby="t">
+  <title id="t">Illustration of fish and chips in a paper cone (placeholder for a real photo)</title>
+  <rect width="600" height="480" fill="#13315c"/>
+  <circle cx="300" cy="230" r="190" fill="#1b4079"/>
+  <!-- chips -->
+  <g fill="#ffd166" stroke="#e0a526" stroke-width="3">
+    <rect x="215" y="120" width="26" height="150" rx="6" transform="rotate(-14 228 195)"/>
+    <rect x="250" y="100" width="26" height="160" rx="6" transform="rotate(-5 263 180)"/>
+    <rect x="285" y="95" width="26" height="165" rx="6" transform="rotate(3 298 178)"/>
+    <rect x="320" y="105" width="26" height="155" rx="6" transform="rotate(10 333 183)"/>
+    <rect x="352" y="125" width="26" height="140" rx="6" transform="rotate(18 365 195)"/>
+  </g>
+  <!-- battered fish -->
+  <g transform="rotate(-18 300 190)">
+    <path d="M150 200c40-52 140-62 215-22l55-38-8 62 8 62-55-38c-75 40-175 30-215-26z" fill="#f4a63b" stroke="#c97a1a" stroke-width="4"/>
+    <path d="M200 185q20 10 40 0M245 175q20 12 42 0M295 172q18 12 38 2" fill="none" stroke="#c97a1a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- paper cone -->
+  <path d="M170 240h260l-130 210z" fill="#fdfdfb" stroke="#d6dbe3" stroke-width="4"/>
+  <path d="M170 240h260l-22 36H192z" fill="#ffc93c"/>
+  <g stroke="#c8ced8" stroke-width="5" stroke-linecap="round">
+    <path d="M215 300h170M232 328h136M250 356h100M268 384h64"/>
+  </g>
+  <!-- lemon -->
+  <circle cx="455" cy="355" r="38" fill="#ffe066" stroke="#e0b400" stroke-width="4"/>
+  <path d="M455 317v76M417 355h76M428 328l54 54M482 328l-54 54" stroke="#fff3b0" stroke-width="3"/>
+</svg>
