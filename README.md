@@ -1,17 +1,25 @@
 # Sea World Fish 'N' Chips
 
-One-page website for Sea World Fish 'N' Chips, 2 Nightingales Corner, Little Chalfont, Amersham HP7 9PY.
+Website for **Sea World Fish 'N' Chips**, the fish and chip shop at 2 Nightingales Corner, Little Chalfont, Amersham HP7 9PY (01494 766631).
 
-Plain HTML/CSS/JS, with no build step and no dependencies.
+It's a plain static site (HTML, CSS and JS) with no build step.
 
-- `index.html`: the whole site (styles and the small script are inline)
-- `images/`: favicon and placeholder illustrations
-- `netlify.toml`: tells Netlify to publish the repo root as-is
+## Run locally
+
+```sh
+python3 -m http.server 8000
+# open http://localhost:8000
+```
+
+## Editing
+
+- **Menu**: edit `js/menu-data.js`. Each category has a title, an optional note, and a list of items (`name`, `desc`, `price`, and `from: true` for "from £…" prices). The page builds the tabs and lists from this file.
+- **Hours**: the hours table is in `index.html` (`#hours`). The live "Open now" badge reads `OPEN_MIN`, `CLOSE_MIN` and `CLOSED_DAYS` in `js/main.js`. The footer, the info strip and the schema markup also show the hours.
+- **Photos**: these go in `images/`. The hero uses `shop-front.webp`, and `og-image.jpg` is the preview image shown when the link is shared.
 
 ## Deploy
 
-- **Drag & drop:** drop this folder onto https://app.netlify.com/drop
-- **From Git:** connect the repo in Netlify; `netlify.toml` handles the settings.
+Drag the folder into Netlify, or connect the repo. `netlify.toml` publishes the root with no build command.
 
 ## Still to confirm
 
